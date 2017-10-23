@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+import "test2.proto";
+package yilunchong.test;
+
+message Message1 {
+	optional Message2 field = 1;
+}
+

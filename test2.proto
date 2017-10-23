@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package yilunchong.test;
+
+message Message2 {
+	optional int32 field = 1;
+}
+
